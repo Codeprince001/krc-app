@@ -11,7 +11,6 @@ import {
   MessageCircleHeart,
   PlayCircle,
   ShieldCheck,
-  Sparkles,
   Users,
 } from "lucide-react";
 
@@ -113,11 +112,6 @@ export default function Home() {
 
           <div className="mt-12 grid items-center gap-10 md:mt-16 md:grid-cols-[1.1fr_0.9fr]">
             <div>
-              <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-blue-50">
-                <Sparkles className="h-4 w-4" />
-                Your Church in Your Pocket
-              </div>
-
               <h1 className="text-4xl font-extrabold leading-tight md:text-6xl">
                 Faith. Fellowship. Growth.
                 <span className="mt-2 block text-blue-200">
@@ -133,7 +127,9 @@ export default function Home() {
 
               <div className="mt-9 flex flex-wrap gap-3">
                 <a
-                  href="#download"
+                  href="https://play.google.com/store/apps/details?id=com.thekingdomchurch.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:bg-slate-100"
                 >
                   Download on Android
